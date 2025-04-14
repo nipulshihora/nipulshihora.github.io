@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Nipul / Profile"
+title                    : "Nipul - Profile"
 title_separator          : "-"
 name                     : &name "Nipul"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ repository               : "nipulshihora/nipulshihora.github.io"
 author:
   # Biographic information
   avatar           : "nipulgs.png"
-  name             : "Your Sidebar Name"
+  name             : "Nipul Gordhanbhai Shihora"
   pronouns         : # example: "he/his"  
   bio              : "Library and Information Science Professional"
   location         : "Rajkot, Gujarat, INDIA"
@@ -35,7 +35,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0000-0002-4480-388X"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Nipul-Shihora" # URL
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
