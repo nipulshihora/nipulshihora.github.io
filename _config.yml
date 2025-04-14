@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Nipul - Profile"
+title                    : "Academic Profile"
 title_separator          : "-"
 name                     : &name "Nipul"
 description              : &description "personal description"
