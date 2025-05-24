@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Curriculum Vitae"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,15 +10,6 @@ redirect_from:
 
 # Curriculum Vitae
 
-## Personal Details
-**Name:** Mr. Nipul Gordhanbhai Shihora  
-**Date of Birth:** October 8, 1989  
-**Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
-**Phone:** +91-97229-54642  
-**ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
-**Languages Known:** English, Hindi, Gujarati  
-
----
 
 ## Professional Summary
 Library and Information Science professional with over a decade of experience across premier institutions like IIT Indore, INFLIBNET Centre, IIT Bhubaneswar, and IIT Gandhinagar. Proficient in digital library systems, e-resource management, RFID technologies, institutional repositories, scholarly communication, and web-based library services.
@@ -108,5 +99,15 @@ Library and Information Science professional with over a decade of experience ac
 ## Contributions as Resource Person
 - National workshops on DSpace, KOHA, e-Resource Management at INFLIBNET
 - SOUL 2.0 and ICT workshops for LIS professionals
+
+---
+
+## Personal Details
+**Name:** Mr. Nipul Gordhanbhai Shihora  
+**Date of Birth:** October 8, 1989  
+**Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
+**Phone:** +91-97229-54642  
+**ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
+**Languages Known:** English, Hindi, Gujarati  
 
 ---
