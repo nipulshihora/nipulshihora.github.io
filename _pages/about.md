@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
-# Curriculum Vitae
-
-
 ## Professional Summary
 Library and Information Science professional with over a decade of experience across premier institutions like IIT Indore, INFLIBNET Centre, IIT Bhubaneswar, and IIT Gandhinagar. Proficient in digital library systems, e-resource management, RFID technologies, institutional repositories, scholarly communication, and web-based library services.
 
