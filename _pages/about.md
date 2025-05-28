@@ -36,3 +36,46 @@ Nipul also contributes to institutional committees and academic support activiti
 **📧 Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com) 
 **🏛️ Office:** Learning Resource Center, IIT Indore
 ---
+
+
+
+
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+# Publications
+
+A curated list of my research publications, conference papers, and professional contributions.
+
+---
+
+## 📘 Journal Articles
+
+- **Shihora, N.G.** (2023). *Title of Article 1*. _Journal of Library Science_, **12**(4), 123–130.  
+  [DOI: 10.1234/example1](https://doi.org/10.1234/example1)
+
+- **Shihora, N.G.** (2022). *Title of Article 2*. _International Journal of Information Studies_, **10**(2), 88–95.  
+  [DOI: 10.1234/example2](https://doi.org/10.1234/example2)
+
+---
+
+## 🎤 Conference Papers
+
+- **Shihora, N.G.** (2021). *RFID Implementation in Academic Libraries*.  
+  _Proceedings of the 5th National Conference on Digital Libraries_.  
+  [PDF Link](https://example.com/rfid-paper.pdf)
+
+---
+
+## ✍️ Other Contributions
+
+- **Shihora, N.G.** (2020). *Library Automation: An Overview*.  
+  Blog post at [IIT Indore Library Website](https://library.iiti.ac.in/blog/automation)
+
+---
+
+> 📌 For the most up-to-date list of my publications, visit my [Google Scholar](#), [ORCID](#), or [IRINS Profile](#).
+
