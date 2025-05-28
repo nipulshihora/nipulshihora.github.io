@@ -16,3 +16,24 @@ Name2 Name2:
   avatar      : "bio-photo.jpg"
   twitter     : "name2"
   google_plus : "Name"
+
+
+  nipulshihora:
+  name: "Nipul Gordhanbhai Shihora"
+  avatar: "/images/profile.jpg"  # Replace with your actual image path
+  bio: "Library Information Assistant at IIT Indore"
+  location: "Madhya Pradesh, India"
+  email: "nipul@example.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:nipul@example.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/yourprofile/"
+    - label: "ResearchGate"
+      icon: "ai ai-researchgate"
+      url: "https://www.researchgate.net/profile/Your_Name"
+    - label: "Phone"
+      icon: "fas fa-phone"
+      url: "tel:+911234567890"
