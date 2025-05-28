@@ -1,3 +1,13 @@
+---
+title: 'Dspace-Auto-Backup'
+date: 2025-05-028
+permalink: 
+tags:
+  - Dspace
+  - Auto Backup
+  - Cronjob
+---
+
 ## How to Setup Automatic Daily Backup of Dspace Database & Files
 
 Create a script for daily automatic DSpace backup of Database & Repository using Dspace Backup Commands in Terminal.
