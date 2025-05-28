@@ -1,5 +1,5 @@
 ---
-title: 'embargo-setup'
+title: 'DSpace 6.3 – Embargo Configuration Guide'
 date: 2025-05-28
 permalink: /posts/2025/05/blog-post-5/
 
