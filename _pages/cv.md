@@ -98,8 +98,7 @@ Library and Information Science professional with over a decade of experience ac
 
 ---
 
-Publications
-======
+## Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
