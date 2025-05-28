@@ -1,0 +1,27 @@
+workshops:
+  - title: "Introduction to Digital Libraries"
+    date: "2024-01-10"
+    role: "Participant"
+    organizer: "INFLIBNET"
+  - title: "Library Automation Tools"
+    date: "2023-09-15"
+    role: "Speaker"
+    organizer: "IIT Indore"
+
+seminars:
+  - title: "Innovations in Library Science"
+    date: "2022-11-20"
+    role: "Attendee"
+    organizer: "ILA"
+
+webinars:
+  - title: "Open Access and Repositories"
+    date: "2023-03-05"
+    role: "Participant"
+    organizer: "NDL"
+
+trainings:
+  - title: "RFID in Libraries"
+    date: "2021-07-18"
+    role: "Trainee"
+    organizer: "SOUL Training Center"
