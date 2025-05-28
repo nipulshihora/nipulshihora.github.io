@@ -44,10 +44,9 @@ Library and Information Science professional with over a decade of experience ac
 ### Indian Institute of Technology Indore (June 2021 – Present)  
 **Designation:** Library Information Assistant  
 **Key Responsibilities:**
-- Maintain LRC IT infrastructure
-  - LMS, IDR, CMS etc.
+- Maintain LRC IT infrastructure (LMS, IDR, CMS, etc.)
 - Manage e-resources, access authentication and publisher liaison
-- Administer RFID system and remote access via Knimbus
+- Administer the RFID system and remote access via Knimbus
 - Manage IRINS and faculty publication reports
 - Handle Document Delivery Service (DDS) and Inter Library Loan
 - Support Library Committee, Staff Welfare website, and campus events
