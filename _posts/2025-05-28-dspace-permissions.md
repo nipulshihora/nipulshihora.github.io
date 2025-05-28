@@ -1,5 +1,5 @@
 ---
-title: 'dspace-permissions'
+title: 'DSpace Permissions on Item Bitstreams'
 date: 2025-05-28
 permalink: /posts/2025/05/blog-post-3/
 
