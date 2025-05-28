@@ -1,7 +1,6 @@
 ---
 title: 'Dspace-Auto-Backup'
 date: 2025-05-28
-layout: post
 permalink: /posts/2025/05/blog-post-1/
 
 tags:
