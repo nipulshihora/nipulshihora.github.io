@@ -2,7 +2,6 @@
 layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: false
 layout: cv-layout
 classes: no-title
 redirect_from:
