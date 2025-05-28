@@ -18,15 +18,23 @@ Library and Information Science professional with over a decade of experience ac
 
 ## Educational Qualifications
 
-| Degree | Institution | Year | Grade |
-|--------|-------------|------|-------|
-| M.LISc | Sardar Patel University | 2013 | First Class |
-| B.LISc | Sardar Patel University | 2012 | First Class |
-| B.Com | Saurashtra University | 2011 | Second Class |
-| HSC | GSHSEB Gandhinagar | 2008 | Second Class |
-| SSC | GSHSEB Gandhinagar | 2006 | Second Class |
+- **Master of Library and Information Science (M.L.I.Sc.)**  
+  Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India ............................................. *2013*
 
+- **Bachelor of Library and Information Science (B.L.I.Sc.)**  
+  Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India ............................................. *2012*
+
+- **Bachelor of Commerce (B.Com.)**  
+  Saurashtra University, Rajkot, Gujarat, India ...................................... *2011*
+
+- **Higher Secondary School Certificate (H.S.C.)**  
+  GSHSEB Gandhinagar, Gujarat, India ............................................ *2008*
+
+- **Secondary School Certificate (S.S.C.)**  
+  GSHSEB Gandhinagar, Gujarat, India ............................................ *2006*
+  
 ---
+
 
 ## Certifications
 - UGC-NET Qualified (July 2018 & July 2019)
