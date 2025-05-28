@@ -226,9 +226,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  Blog:
-    output: true
-    permalink: /posts/:year/:month/:title/
+
 
 
 # These settings control how pages and collections are included in the site
