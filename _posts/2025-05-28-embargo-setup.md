@@ -11,7 +11,6 @@ tags:
 ---
 
 
----
 
 This guide explains how to configure and manage embargo (temporary access restriction) on items in a **DSpace 6.3** repository. Embargo allows bitstreams to remain inaccessible to the public until a specified future date.
 
