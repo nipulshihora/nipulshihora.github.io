@@ -4,13 +4,18 @@ permalink: /contact/
 author_profile: true
 ---
 
+### You can reach me via:
 
-You can reach me via:
+<address>
+📧 Email: nipul[at]iiti[dot]ac[dot]in<br>
+☎️ Phone: 0731-660-3566<br>
+📍 Address:  <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Resource Center,<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indian Institute of Technology Indore,<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Madhya Pradesh,<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDIA
+</address>
 
-- 📧 Email: [nipul[at]iiti[dot]ac[dot]in](mailto:nipul@iiti.ac.in)
-- ☎️ Phone: 0731-660*3566
-- 📍 Address: Library Office, Indian Institute of Technology Indore, Madhya Pradesh, India
-
-You can also connect via:
-- [LinkedIn](https://www.linkedin.com/in/yourprofile/)
-- [ResearchGate](https://www.researchgate.net/profile/Your_Name)
+### You can also connect via:
+- [LinkedIn](https://www.linkedin.com/in/nipul-shihora/)
+- [ResearchGate](https://www.researchgate.net/profile/Nipul-Shihora/)
