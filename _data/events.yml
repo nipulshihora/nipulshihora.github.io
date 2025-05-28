@@ -3,6 +3,16 @@ workshops:
     date: "2024-01-10"
     role: "Participant"
     organizer: "INFLIBNET"
+    
+  - title: "Introduction to Digital Libraries"
+    date: "2024-01-10"
+    role: "Participant"
+    organizer: "INFLIBNET"
+
+  - title: "Introduction to Digital Libraries"
+    date: "2024-01-10"
+    role: "Participant"
+    organizer: "INFLIBNET"
 
 webinars:
   - title: "Open Access and Repositories"
