@@ -1,7 +1,9 @@
 ---
-layout: archive
 title: 'Secure DSpace 6.3 with Let's Encrypt SSL'
+layout: single
 date: 2025-05-28
+author_profile: true
+hide_title: true
 permalink: /posts/2025/05/blog-post-4/
 
 tags:
@@ -10,8 +12,7 @@ tags:
   - Certbot
 ---
 
-
-
+# Secure DSpace 6.3 with Let's Encrypt SSL
 
 > Domain: `example.com`  
 > Environment: Apache HTTP Server (Reverse Proxy) + Tomcat 9 + Ubuntu/Debian
