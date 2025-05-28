@@ -1,0 +1,76 @@
+---
+layout: single
+title: "Workshops / Seminars / Webinars / Trainings"
+permalink: /workshops/
+toc: true
+toc_label: "Jump to"
+toc_sticky: true
+---
+
+## Workshops
+<table>
+  <thead>
+    <tr><th>Title</th><th>Date</th><th>Role</th><th>Organizer</th></tr>
+  </thead>
+  <tbody>
+    {% for item in site.data.events.workshops %}
+      <tr>
+        <td>{{ item.title }}</td>
+        <td>{{ item.date }}</td>
+        <td>{{ item.role }}</td>
+        <td>{{ item.organizer }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+## Seminars
+<table>
+  <thead>
+    <tr><th>Title</th><th>Date</th><th>Role</th><th>Organizer</th></tr>
+  </thead>
+  <tbody>
+    {% for item in site.data.events.seminars %}
+      <tr>
+        <td>{{ item.title }}</td>
+        <td>{{ item.date }}</td>
+        <td>{{ item.role }}</td>
+        <td>{{ item.organizer }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+## Webinars
+<table>
+  <thead>
+    <tr><th>Title</th><th>Date</th><th>Role</th><th>Organizer</th></tr>
+  </thead>
+  <tbody>
+    {% for item in site.data.events.webinars %}
+      <tr>
+        <td>{{ item.title }}</td>
+        <td>{{ item.date }}</td>
+        <td>{{ item.role }}</td>
+        <td>{{ item.organizer }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+## Training Programs
+<table>
+  <thead>
+    <tr><th>Title</th><th>Date</th><th>Role</th><th>Organizer</th></tr>
+  </thead>
+  <tbody>
+    {% for item in site.data.events.trainings %}
+      <tr>
+        <td>{{ item.title }}</td>
+        <td>{{ item.date }}</td>
+        <td>{{ item.role }}</td>
+        <td>{{ item.organizer }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
