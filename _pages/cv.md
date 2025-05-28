@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -32,7 +32,7 @@ Library and Information Science professional with over a decade of experience ac
 ---
 
 ## Professional Experience
-
+---
 ### Indian Institute of Technology Indore (June 2021 – Present)  
 **Designation:** Library Information Assistant  
 **Key Responsibilities:**
@@ -43,7 +43,7 @@ Library and Information Science professional with over a decade of experience ac
 - Handle over 1,500 Document Delivery Service (DDS) requests annually
 - Contribute to institutional repository, workshops, and user training
 - Support Library Committee, Staff Welfare website, and campus events
-
+---
 ### INFLIBNET Centre, Gandhinagar (Sep 2016 – May 2021)  
 **Designation:** Project Officer (eSS)  
 **Key Contributions:**
@@ -51,7 +51,7 @@ Library and Information Science professional with over a decade of experience ac
 - Maintained CORAL ERM and university directory
 - Provided training on SOUL, Koha, CORAL, DSpace
 - Involved in data verification for NIRF and Shodhganga
-
+---
 ### IIT Bhubaneswar & IIT Gandhinagar (2013 – 2016)  
 **Designation:** Library Trainee / Professional Trainee  
 **Roles Included:**
