@@ -1,8 +1,10 @@
 ---
 layout: archive
-title: "Curriculum vitae"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+layout: cv-layout
+classes: no-title
 redirect_from:
   - /resume
 ---
