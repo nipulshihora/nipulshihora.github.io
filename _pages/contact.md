@@ -10,7 +10,7 @@ author_profile: true
   
 ☎️ Phone: 0731-660-3566<br>
 
-📍 Address:  <br>
+📍 Address:
 <address>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Resource Center,<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indian Institute of Technology Indore,<br> 
