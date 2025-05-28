@@ -13,7 +13,7 @@ author_profile: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Madhya Pradesh,<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDIA<br>
 </address>
-<br>
+
 ☎️ Phone: 0731-660-3566<br>
 📧 Email: nipul[at]iiti[dot]ac[dot]in<br>
 
