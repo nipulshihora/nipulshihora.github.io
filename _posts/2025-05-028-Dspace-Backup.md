@@ -2,7 +2,7 @@
 title: 'Dspace-Auto-Backup'
 date: 2025-05-28
 layout: post
-permalink: 
+permalink: _posts/2025-05-028-Dspace-Backup.md
 tags:
   - Dspace
   - Auto Backup
