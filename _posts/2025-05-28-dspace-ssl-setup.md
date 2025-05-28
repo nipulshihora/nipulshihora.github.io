@@ -11,7 +11,8 @@ tags:
 
 
 # Secure DSpace 6.3 with Let's Encrypt SSL
-> Domain: `dspace.iiti.ac.in`  
+
+> Domain: `example.com`  
 > Environment: Apache HTTP Server (Reverse Proxy) + Tomcat 9 + Ubuntu/Debian
 
 ---
@@ -30,14 +31,14 @@ sudo apt install certbot python3-certbot-apache
 Create a new Apache site config:
 
 ```bash
-sudo nano /etc/apache2/sites-available/dspace.iiti.ac.in.conf
+sudo nano /etc/apache2/sites-available/example.com.conf
 ```
 
 Paste:
 
 ```apache
 <VirtualHost *:80>
-    ServerName dspace.iiti.ac.in
+    ServerName example.com
 
     ProxyPreserveHost On
     ProxyPass / http://localhost:8080/
@@ -52,12 +53,12 @@ Enable necessary modules and site:
 
 ```bash
 sudo a2enmod proxy proxy_http headers
-sudo a2ensite dspace.iiti.ac.in
+sudo a2ensite example.com
 sudo systemctl restart apache2
 ```
 
 Test by visiting:  
-http://dspace.iiti.ac.in
+http://example.com
 
 ---
 
@@ -77,15 +78,15 @@ Follow the interactive prompts and choose to redirect HTTP to HTTPS if prompted.
 
 ```apache
 <VirtualHost *:443>
-    ServerName dspace.iiti.ac.in
+    ServerName example.com
 
     ProxyPreserveHost On
     ProxyPass / http://localhost:8080/
     ProxyPassReverse / http://localhost:8080/
 
     SSLEngine on
-    SSLCertificateFile /etc/letsencrypt/live/dspace.iiti.ac.in/fullchain.pem
-    SSLCertificateKeyFile /etc/letsencrypt/live/dspace.iiti.ac.in/privkey.pem
+    SSLCertificateFile /etc/letsencrypt/live/example.com/fullchain.pem
+    SSLCertificateKeyFile /etc/letsencrypt/live/example.com/privkey.pem
 
     Include /etc/letsencrypt/options-ssl-apache.conf
 </VirtualHost>
@@ -129,8 +130,8 @@ Edit Apache HTTP config if not already redirected:
 
 ```apache
 <VirtualHost *:80>
-    ServerName dspace.iiti.ac.in
-    Redirect permanent / https://dspace.iiti.ac.in/
+    ServerName example.com
+    Redirect permanent / https://example.com/
 </VirtualHost>
 ```
 
@@ -144,7 +145,7 @@ sudo systemctl reload apache2
 
 ## 🎉 Result
 
-- ✅ HTTPS active: https://dspace.iiti.ac.in  
+- ✅ HTTPS active: https://example.com  
 - 🔁 Apache Reverse Proxy to Tomcat 9  
 - 🔒 Let's Encrypt SSL with auto-renewal
 
