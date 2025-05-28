@@ -1,14 +1,13 @@
 ---
 title: 'Secure DSpace 6.3 with Let's Encrypt SSL'
-layout: single
 date: 2025-05-28
-author_profile: true
 permalink: /posts/2025/05/blog-post-4/
 
 tags:
   - Dspace
   - SSL Certificate
   - Certbot
+    
 ---
 
 
