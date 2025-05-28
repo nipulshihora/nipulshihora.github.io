@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2019-02-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2019-02-01
+date: 2019-02-08
 venue: '2nd International Conference on Librarianship Development through Internet of Things and Customer ServiceAt: Gujarat Power Engineering and Research Institute, Mehsana'
 paperurl: 'http:/nipulshihora.github.io/files/paper1.pdf'
 citation: 'Ahirwar, Ramswaroop; T R., Manu, & Nipul Shihora, "The Impact of Academic Libraries in Enhancing Institutional NIRF Ranking: A Study", in the 2nd International Conference On Librarianship Development through Internet of Things & Customer Service (LDITCS-2019), Gujarat Power Engineering and Research Institute, Mehsana, IN, Feb. 08-09, 2019.'
