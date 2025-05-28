@@ -6,7 +6,6 @@ author_profile: true
 
 ### You can reach me via:
 
-
 📍 Address:
 <address>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Resource Center,<br> 
@@ -15,7 +14,6 @@ author_profile: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDIA<br>
 </address>
 <br>
-
 ☎️ Phone: 0731-660-3566<br>
 📧 Email: nipul[at]iiti[dot]ac[dot]in<br>
 
