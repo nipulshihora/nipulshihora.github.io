@@ -10,7 +10,7 @@ tags:
 ---
 
 
-# Secure DSpace 6.3 with Let's Encrypt SSL
+
 
 > Domain: `example.com`  
 > Environment: Apache HTTP Server (Reverse Proxy) + Tomcat 9 + Ubuntu/Debian
