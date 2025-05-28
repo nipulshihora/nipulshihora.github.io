@@ -1,5 +1,5 @@
 ---
-title: 'Dspace-Auto-Backup'
+title: 'How to Setup Automatic Daily Backup of Dspace Database & Files'
 date: 2025-05-28
 permalink: /posts/2025/05/blog-post-1/
 
