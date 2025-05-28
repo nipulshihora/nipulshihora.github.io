@@ -74,7 +74,7 @@ Library and Information Science professional with over a decade of experience ac
 ---
 
 ## Technical Skills
-- **Library Management Systems:** Koha, SOUL, LibSys, CORAL, DSpace
+- **Library Management Systems:** Koha, SOUL, LibSys, etc.
 - **Digital Library Management Systems:** DSpace, ePrint
 - **eResource Management System:** CORAL
 - **Web Tools:** WordPress, Drupal, SubjectPlus, No-Code 
