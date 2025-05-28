@@ -8,7 +8,9 @@ author_profile: true
 
 <address>
 📧 Email: nipul[at]iiti[dot]ac[dot]in<br>
-☎️ Phone: 0731-660-3566<br>
+  
+☎️ Phone: 0731-660-3566<be>
+
 📍 Address:  <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Resource Center,<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indian Institute of Technology Indore,<br> 
