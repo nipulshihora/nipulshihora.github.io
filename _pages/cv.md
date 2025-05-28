@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -97,3 +97,11 @@ Library and Information Science professional with over a decade of experience ac
 - **ADINET (Ahmedabad Library Network)** – Lifetime Member
 
 ---
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+  ---
