@@ -1,6 +1,8 @@
 ---
 title: 'How to Setup Automatic Daily Backup of Dspace Database & Files'
 date: 2025-05-28
+layout: archive
+header: false
 permalink: /posts/2025/05/blog-post-1/
 
 tags:
