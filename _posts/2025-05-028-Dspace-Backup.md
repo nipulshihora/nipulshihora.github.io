@@ -2,7 +2,8 @@
 title: 'Dspace-Auto-Backup'
 date: 2025-05-28
 layout: post
-permalink: /posts/2025/05/Dspace-Auto-Backup/
+permalink: /posts/2025/05/blog-post-1/
+
 tags:
   - Dspace
   - Auto Backup
@@ -143,5 +144,5 @@ OR
 15 13 * * * /usr/local/bin/backup.sh
 00 14 * * * find dspace_backup/* -mtime +180 -exec rm {} ;
 ```
-Save this file using Ctrl+o and ENTER, then press Ctrl+x to exit the cron.
-Now, This cron job will take Backup of Dspace Database, files & logs  automatically at 01:15PM daily and save it to dspace_backup folder. It will automatically delete backup files older than 180 days. 
+Save this file using `Ctrl+o` and `ENTER`, then press `Ctrl+x` to exit the cron.
+Now, This cron job will take Backup of Dspace Database, files & logs  automatically at **01:15PM daily** and save it to **dspace_backup** folder. *It will automatically delete backup files older than 180 days.* 
