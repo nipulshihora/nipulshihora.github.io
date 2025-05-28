@@ -4,62 +4,50 @@ title: "Workshops / Seminars / Webinars / Trainings"
 permalink: /workshops/
 ---
 
-<!-- Section: Workshops -->
+<!-- Workshops -->
 <details open>
   <summary><h2>Workshops</h2></summary>
-  <div class="event-list">
+  <ul class="event-lines">
     {% for item in site.data.events.workshops %}
-      <div class="event-card" data-year="{{ item.date | slice: 0, 4 }}" data-type="Workshop">
-        <h3>{{ item.title }}</h3>
-        <p><strong>Date:</strong> {{ item.date }}</p>
-        <p><strong>Role:</strong> {{ item.role }}</p>
-        <p><strong>Organizer:</strong> {{ item.organizer }}</p>
-      </div>
+      <li data-year="{{ item.date | slice: 0, 4 }}" data-type="Workshop">
+        📅 {{ item.date }} — <em>{{ item.title }}</em> ({{ item.role }}, {{ item.organizer }})
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </details>
 
-<!-- Section: Webinars -->
+<!-- Webinars -->
 <details>
   <summary><h2>Webinars</h2></summary>
-  <div class="event-list">
+  <ul class="event-lines">
     {% for item in site.data.events.webinars %}
-      <div class="event-card" data-year="{{ item.date | slice: 0, 4 }}" data-type="Webinar">
-        <h3>{{ item.title }}</h3>
-        <p><strong>Date:</strong> {{ item.date }}</p>
-        <p><strong>Role:</strong> {{ item.role }}</p>
-        <p><strong>Organizer:</strong> {{ item.organizer }}</p>
-      </div>
+      <li data-year="{{ item.date | slice: 0, 4 }}" data-type="Webinar">
+        📅 {{ item.date }} — <em>{{ item.title }}</em> ({{ item.role }}, {{ item.organizer }})
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </details>
 
-<!-- Section: Seminars -->
+<!-- Seminars -->
 <details>
   <summary><h2>Seminars</h2></summary>
-  <div class="event-list">
+  <ul class="event-lines">
     {% for item in site.data.events.seminars %}
-      <div class="event-card" data-year="{{ item.date | slice: 0, 4 }}" data-type="Seminar">
-        <h3>{{ item.title }}</h3>
-        <p><strong>Date:</strong> {{ item.date }}</p>
-        <p><strong>Role:</strong> {{ item.role }}</p>
-        <p><strong>Organizer:</strong> {{ item.organizer }}</p>
-      </div>
+      <li data-year="{{ item.date | slice: 0, 4 }}" data-type="Seminar">
+        📅 {{ item.date }} — <em>{{ item.title }}</em> ({{ item.role }}, {{ item.organizer }})
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </details>
 
-<!-- Section: Trainings -->
+<!-- Trainings -->
 <details>
-  <summary><h2>Training Programs</h2></summary>
-  <div class="event-list">
+  <summary><h2>Trainings</h2></summary>
+  <ul class="event-lines">
     {% for item in site.data.events.trainings %}
-      <div class="event-card" data-year="{{ item.date | slice: 0, 4 }}" data-type="Training">
-        <h3>{{ item.title }}</h3>
-        <p><strong>Date:</strong> {{ item.date }}</p>
-        <p><strong>Role:</strong> {{ item.role }}</p>
-        <p><strong>Organizer:</strong> {{ item.organizer }}</p>
-      </div>
+      <li data-year="{{ item.date | slice: 0, 4 }}" data-type="Training">
+        📅 {{ item.date }} — <em>{{ item.title }}</em> ({{ item.role }}, {{ item.organizer }})
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </details>
