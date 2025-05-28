@@ -10,7 +10,7 @@ tags:
 ---
 
 
-# 📂 DSpace Permissions on Item Bitstreams
+# DSpace Permissions on Item Bitstreams
 
 This document provides an overview of how **permissions and restrictions** work for **bitstreams** (attached files) in [DSpace](https://dspace.lyrasis.org/), including how to manage access using resource policies.
 
