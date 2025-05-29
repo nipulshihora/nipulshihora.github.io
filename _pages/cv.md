@@ -15,6 +15,21 @@ redirect_from:
 Library and Information Science professional with over a decade of experience across premier institutions like IIT Indore, INFLIBNET Centre, IIT Bhubaneswar, and IIT Gandhinagar. Proficient in digital library systems, e-resource management, RFID technologies, institutional repositories, research support services, scholarly communication, and web-based library services.
 
 ---
+**Master of Library and Information Science (M.L.I.Sc.)**  
+Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India                    2013
+
+**Bachelor of Library and Information Science (B.L.I.Sc.)**  
+Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India                    2012
+
+**Bachelor of Commerce (B.Com.)**  
+Saurashtra University, Rajkot, Gujarat, India                           2011
+
+**Higher Secondary School Certificate (H.S.C.)**  
+GSHSEB Gandhinagar, Gujarat, India                             2008
+
+**Secondary School Certificate (S.S.C.)**  
+GSHSEB Gandhinagar, Gujarat, India                             2006
+---
 
 ## Educational Qualifications
 
