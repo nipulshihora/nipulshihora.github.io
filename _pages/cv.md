@@ -33,15 +33,15 @@ GSHSEB Gandhinagar, Gujarat, India     *(2008)*
 **Secondary School Certificate (S.S.C.)**  
 GSHSEB Gandhinagar, Gujarat, India     *(2006)*
 
+---
 
-## Certifications
+### Certifications
 1. UGC-NET Qualified     *(July 2018)*
 2. UGC-NET Qualified     *(July 2019)*
 
 ---
 
-Professional Experience
-======================
+## Professional Experience
 
 ### Indian Institute of Technology Indore     *(June 2021 – Present)*
 **Designation:** Library Information Assistant  
@@ -104,11 +104,5 @@ Professional Experience
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-  ---
-
-  ## Training/ Workshop
-  
-    {% include workshop.html %}
 
   ---
