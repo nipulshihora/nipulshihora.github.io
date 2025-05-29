@@ -107,7 +107,7 @@ Professional Experience
   ---
 
   ## Publications
-  <ul>{% for post in site.publications reversed %}
+  <ul>
     {% include workshop.html %}
   {% endfor %}</ul>
 
