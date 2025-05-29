@@ -19,30 +19,31 @@ Library and Information Science professional with over a decade of experience ac
 ## Educational Qualifications
 
 **Master of Library and Information Science (M.L.I.Sc.)**  
-Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India                    2013
+Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India     *(2013)*
 
 **Bachelor of Library and Information Science (B.L.I.Sc.)**  
-Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India                    2012
+Sardar Patel University, Vallabh Vidhyanagar, Gujarat, India     *(2012)*
 
 **Bachelor of Commerce (B.Com.)**  
-Saurashtra University, Rajkot, Gujarat, India                    2011
+Saurashtra University, Rajkot, Gujarat, India     *(2011)*
 
 **Higher Secondary School Certificate (H.S.C.)**  
-GSHSEB Gandhinagar, Gujarat, India                    2008
+GSHSEB Gandhinagar, Gujarat, India     *(2008)*
 
 **Secondary School Certificate (S.S.C.)**  
-GSHSEB Gandhinagar, Gujarat, India                    2006
+GSHSEB Gandhinagar, Gujarat, India     *(2006)*
 
 
 ## Certifications
-- UGC-NET Qualified (July 2018 & July 2019)
+1. UGC-NET Qualified     *(July 2018)*
+2. UGC-NET Qualified     *(July 2019)*
 
 ---
 
 Professional Experience
 ======================
 
-### Indian Institute of Technology Indore (June 2021 – Present)  
+### Indian Institute of Technology Indore     *(June 2021 – Present)*
 **Designation:** Library Information Assistant  
 **Key Responsibilities:**
 - Maintain LRC IT infrastructure (LMS, IDR, CMS, etc.)
@@ -54,7 +55,7 @@ Professional Experience
   
 ---
 
-### INFLIBNET Centre, Gandhinagar (Sep 2016 – May 2021)  
+### INFLIBNET Centre, Gandhinagar     *(Sep 2016 – May 2021)*
 **Designation:** Project Officer (eSS)  
 **Key Contributions:**
 - Handled IP-based access, licensing, resource activation, and usage analytics
@@ -64,7 +65,7 @@ Professional Experience
   
 ---
 
-### IIT Bhubaneswar & IIT Gandhinagar (2013 – 2016)  
+### IIT Bhubaneswar & IIT Gandhinagar     *(2013 – 2016)*
 **Designation:** Professional Trainee  
 **Roles Included:**
 - Book acquisition, technical processing (DDC, MARC-21)
@@ -106,9 +107,8 @@ Professional Experience
 
   ---
 
-  ## Publications
-  <ul>
+  ## Training/ Workshop
+  
     {% include workshop.html %}
-  {% endfor %}</ul>
 
   ---
