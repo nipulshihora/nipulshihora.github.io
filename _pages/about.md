@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Nipul Shihora is a dedicated Library Information Assistant at the Learning Resource Center, IIT Indore.  
-He actively contributes to managing the institute's digital resources, LRC-IT systems, and research support services.  
+Nipul Shihora is a dedicated *Library Information Assistant* at the ***Learning Resource Centre,* Indian Institute of Technology Indore**.  
+He actively contributes to managing the institute's digital resources, LRC-IT systems, and research support services.
 
 He specialises in:  
 - Library IT infrastructure management  
