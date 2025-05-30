@@ -15,6 +15,17 @@ permalink: /workshops/
     {% endfor %}
   </ul>
 
+<!-- Trainings -->
+
+  <summary><h2>Trainings</h2></summary>
+  <ul class="event-lines">
+    {% for item in site.data.events.trainings %}
+      <li data-year="{{ item.date | slice: 0, 4 }}" data-type="Training">
+        📅 {{ item.date }} — <em>{{ item.title }}</em> ({{ item.role }}, {{ item.organizer }})
+      </li>
+    {% endfor %}
+  </ul>
+
 
 <!-- Webinars -->
 
@@ -34,18 +45,6 @@ permalink: /workshops/
   <ul class="event-lines">
     {% for item in site.data.events.seminars %}
       <li data-year="{{ item.date | slice: 0, 4 }}" data-type="Seminar">
-        📅 {{ item.date }} — <em>{{ item.title }}</em> ({{ item.role }}, {{ item.organizer }})
-      </li>
-    {% endfor %}
-  </ul>
-
-
-<!-- Trainings -->
-
-  <summary><h2>Trainings</h2></summary>
-  <ul class="event-lines">
-    {% for item in site.data.events.trainings %}
-      <li data-year="{{ item.date | slice: 0, 4 }}" data-type="Training">
         📅 {{ item.date }} — <em>{{ item.title }}</em> ({{ item.role }}, {{ item.organizer }})
       </li>
     {% endfor %}
