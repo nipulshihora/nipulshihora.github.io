@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Profile"
+title                    : "Nipul | Profile"
 title_separator          : "-"
 name                     : &name "Nipul G Shihora"
 description              : &description "Librarian"
