@@ -1,12 +1,12 @@
 ---
+
 layout: single
-title: "Workshops / Seminars / Webinars / Trainings"
+title: "Professional Engagements"
 permalink: /workshops/
+
 ---
 
 
-
-# Professional Engagements (Year-wise & Role-wise)
 
 ## 🧑‍🏫 As a Resource Person
 
