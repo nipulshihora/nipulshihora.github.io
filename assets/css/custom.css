@@ -2,102 +2,122 @@
   display: none;
 }
 
-/* custom.css - Styling for Event Listing */
-
+/* Body & general styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fafafa;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafe;
   color: #222;
-  line-height: 1.6;
-  margin: 0;
-  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 0 1rem;
+  line-height: 1.5;
 }
 
+/* Role block container */
 .role-block {
+  margin-bottom: 2.5rem;
+  padding: 1rem 1.5rem;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgb(0 0 0 / 0.05);
-  margin-bottom: 2rem;
-  padding: 1.5rem 2rem;
+  border-left: 6px solid #007acc;
+  box-shadow: 0 4px 15px rgb(0 122 204 / 0.15);
+  border-radius: 8px;
   transition: box-shadow 0.3s ease;
 }
 
 .role-block:hover {
-  box-shadow: 0 8px 20px rgb(0 0 0 / 0.12);
+  box-shadow: 0 8px 25px rgb(0 122 204 / 0.3);
 }
 
-.role-block h3 {
-  color: #0056b3;
-  border-bottom: 3px solid #0056b3;
-  padding-bottom: 0.3rem;
+/* Role header */
+.role-block h2 {
+  font-weight: 700;
+  color: #007acc;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
-  font-size: 1.8rem;
-  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.1px;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.3rem;
 }
 
-.role-block ul {
+/* Event list */
+.event-list {
   list-style: none;
-  padding-left: 0;
   margin: 0;
+  padding: 0;
 }
 
-.role-block li {
-  background: #f7f9fc;
-  border-left: 5px solid #0056b3;
-  margin-bottom: 1.2rem;
-  padding: 1rem 1.2rem;
-  border-radius: 6px;
-  transition: background-color 0.2s ease;
-}
-
-.role-block li:hover {
-  background-color: #e6f0ff;
-}
-
-.role-block strong {
-  display: block;
-  font-weight: 700;
-  color: #003d80;
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
-}
-
-.role-block em {
-  font-style: normal;
-  color: #0d0d0d;
-  font-weight: 600;
-  font-size: 1.15rem;
-  margin-bottom: 0.4rem;
-  display: block;
-}
-
-.role-block .remark {
+/* Single event line */
+.event-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 0.3rem 0;
   font-size: 0.95rem;
-  color: #555;
-  line-height: 1.4;
-  font-style: italic;
-  padding-left: 0.3rem;
-  border-left: 3px solid #ccc;
-  margin-top: 0.2rem;
+  color: #333;
+  transition: background-color 0.25s ease;
 }
 
-/* Responsive for smaller screens */
+.event-item:last-child {
+  border-bottom: none;
+}
+
+.event-item:hover {
+  background-color: #e6f0ff;
+  cursor: default;
+}
+
+/* Event parts styling */
+.event-year {
+  font-weight: 700;
+  min-width: 80px;
+  color: #00509e;
+  flex-shrink: 0;
+}
+
+.event-type {
+  font-weight: 600;
+  color: #007acc;
+  min-width: 100px;
+  flex-shrink: 0;
+  text-transform: capitalize;
+}
+
+.event-title {
+  flex-grow: 1;
+  font-style: normal;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: help;
+}
+
+.event-remark {
+  font-style: italic;
+  color: #666;
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: help;
+}
+
+/* Responsive tweaks */
 @media (max-width: 600px) {
-  body {
-    padding: 1rem;
+  .event-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem 0;
   }
-
-  .role-block h3 {
-    font-size: 1.4rem;
+  
+  .event-year, .event-type {
+    min-width: auto;
   }
-
-  .role-block strong {
-    font-size: 1rem;
-  }
-
-  .role-block em {
-    font-size: 1.05rem;
+  
+  .event-remark {
+    max-width: 100%;
   }
 }
