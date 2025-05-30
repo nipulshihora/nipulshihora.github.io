@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Nipul Shihora is a dedicated *Library Information Assistant* at ***Learning Resource Centre,* Indian Institute of Technology Indore**.  
-He actively contributes to managing the institute's digital resources, LRC-IT systems, and research support services.
+I, Nipul Shihora, am a dedicated *Library Information Assistant* at ***Learning Resource Centre,* Indian Institute of Technology Indore**.  
+Actively contributes to managing the institute's digital resources, LRC-IT systems, and research support services.
 
-He specialises in:  
+Specialises in:  
 - Library IT infrastructure management  
 - Institutional repository and digital archiving  
 - RFID-based library automation  
@@ -18,7 +18,7 @@ He specialises in:
 - Faculty profile and research visibility tools  
 - Research support services  
 
-Nipul also contributes to institutional committees and academic support activities. 
+Also contributes to institutional committees and academic support activities. 
 
 ---
 
