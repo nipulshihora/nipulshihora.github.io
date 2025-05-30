@@ -1,33 +1,145 @@
-workshops:
-  - title: "Introduction to Digital Libraries"
-    date: "2024-01-10"
-    role: "Participant"
-    organizer: "INFLIBNET"
-    
-  - title: "Introduction to Digital Libraries"
-    date: "2024-01-10"
-    role: "Participant"
-    organizer: "INFLIBNET"
+# Event Listing grouped by Role - Reverse Chronology
 
-  - title: "Introduction to Digital Libraries"
-    date: "2024-01-10"
-    role: "Participant"
-    organizer: "INFLIBNET"
+- role: As a participant
+  events:
+    - year: 2025
+      event_type: Webinar
+      title: Turnitin Webinar on Paper Deletion and Repository Selection
+      remark: Focused on managing plagiarism reports and repository structures.
+    - year: 2025
+      event_type: Webinar
+      title: Online Awareness Session – How to Publish with Oxford Journals
+      remark: Gained insights into publishing workflows and manuscript preparation.
+    - year: 2025
+      event_type: Session
+      title: Weekly Academic & Office Practice Sessions
+      remark: Internal training to enhance administrative practices and workflows.
+    - year: 2024
+      event_type: Session
+      title: User Awareness Session on CMIE Database
+      remark: Demonstrated research functionalities of CMIE for economic analysis.
+    - year: 2024
+      event_type: Webinar
+      title: Unlocking the Secrets of Research: Reproducibility and Data Management
+      remark: Covered ethics, reproducibility, and FAIR-aligned data practices.
+    - year: 2024
+      event_type: Webinar
+      title: Webinar – Enhancing Research with Open Data
+      remark: Covered open science, metadata, and data citation best practices.
+    - year: 2024
+      event_type: Workshop
+      title: Author Workshop by IOP Publishing (UK)
+      remark: Scientific writing, publication ethics, and visibility tips.
+    - year: 2024
+      event_type: Webinar
+      title: Webinar – Mastering Data Management Plans
+      remark: Frameworks for accessible and reusable research data.
+    - year: 2024
+      event_type: Session
+      title: User Awareness Session on MLA International Bibliography
+      remark: Research using MLA resources in humanities and social sciences.
+    - year: 2024
+      event_type: Training
+      title: Training Session – Procurement of Goods and Services on GeM Portal
+      remark: Orientation on procurement protocols and GeM compliance.
+    - year: 2024
+      event_type: Session
+      title: Training Session on CMIE Prowess Database
+      remark: Hands-on corporate and financial analytics using ProwessIQ.
+    - year: 2024
+      event_type: Workshop
+      title: Summer School on Building Next-Gen Digital Repositories (DSpace)
+      remark: Advanced DSpace training for scholarly metadata and open access.
+    - year: 2024
+      event_type: Workshop
+      title: Awareness Programme on ORCID and INFLIBNET Services
+      remark: Open access tools, researcher identifiers, and INFLIBNET services.
+    - year: 2023
+      event_type: Session
+      title: An EPWRF India Time Series Database Awareness Session
+      remark: Overview of macroeconomic data and analytics tools.
+    - year: 2023
+      event_type: Training
+      title: FLY Training Program
+      remark: Leadership and institutional development by CMI, USA.
+    - year: 2023
+      event_type: Session
+      title: Turnitin Feedback Studio Awareness Session
+      remark: Techniques in plagiarism detection and Turnitin tools.
+    - year: 2023
+      event_type: Training
+      title: Knimbus Admin Training
+      remark: Admin training on Knimbus discovery platform at IIT Indore.
+    - year: 2022
+      event_type: Training
+      title: Training of Officials of Autonomous Bodies (GeM)
+      remark: Procurement processes and e-marketplace usage.
+    - year: 2022
+      event_type: Training
+      title: In-house Training for RFID System
+      remark: Exposure to RFID-based library automation systems.
+    - year: 2021-2022
+      event_type: Session
+      title: In-house Skill Enhancement Training Session
+      remark: Internal capacity building program.
+    - year: 2018
+      event_type: Session
+      title: Librarian’s Day Seminar on Startup India & Libraries
+      remark: Focused on innovation and entrepreneurship in LIS.
+    - year: 2018
+      event_type: Workshop
+      title: Teaching Library & Information Sessions in Academic Libraries
+      remark: Pedagogy for LIS instruction and engagement.
+    - year: 2016
+      event_type: Workshop
+      title: Developing Institutional Repository using DSpace
+      remark: Hands-on repository development workshop at NIFT Bhubaneswar.
+    - year: 2015
+      event_type: Seminar
+      title: Librarian’s Development Programme (LDP)
+      remark: Professional growth initiative for LIS professionals.
+    - year: 2012
+      event_type: Seminar
+      title: Librarian’s Day Seminar
+      remark: Annual seminar recognizing LIS roles and practices.
+    - year: 2011
+      event_type: Seminar
+      title: Social Responsibility of LIS Professionals
+      remark: Focus on ethics and LIS roles in public service.
 
-webinars:
-  - title: "Open Access and Repositories"
-    date: "2023-03-05"
-    role: "Participant"
-    organizer: "NDL"
+- role: As a resource person
+  events:
+    - year: 2022
+      event_type: Webinar
+      title: LIB-TAN Monthly Talk Series - 2
+      remark: Invited talk hosted by Library Trainee Alumni of IIT Gandhinagar.
+    - year: 2017
+      event_type: Training
+      title: PDP – Design and Development of Institutional Repository Using DSpace
+      remark: Delivered expert session on DSpace repository workflows.
 
-seminars:
-  - title: "Innovations in Library Science"
-    date: "2022-11-20"
-    role: "Attendee"
-    organizer: "ILA"
+- role: As a Technical Resource Person
+  events:
+    - year: 2018
+      event_type: Workshop
+      title: KOHA: Installation and Operations
+      remark: Installation and user management training using KOHA ILS.
+    - year: 2017-2018
+      event_type: Workshop
+      title: SOUL 2.0 Advanced Training Program
+      remark: Repeated technical sessions for SOUL software users.
+    - year: 2017-2018
+      event_type: Workshop
+      title: E-Resource Management with CORAL ERMS
+      remark: Technical hands-on workshop on managing e-resources.
+    - year: 2017
+      event_type: Workshop
+      title: Capacity Building Program on ICT for LIS (Hindi)
+      remark: Delivered Hindi-language training on ICT tools for LIS.
 
-trainings:
-  - title: "RFID in Libraries"
-    date: "2021-07-18"
-    role: "Trainee"
-    organizer: "SOUL Training Center"
+- role: As Organizing Committee Member
+  events:
+    - year: 2017
+      event_type: Seminar
+      title: Re-imagining Today’s Librarianship
+      remark: Assisted in organizing seminar by ADINET and Adani Institute.
