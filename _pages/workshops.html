@@ -1,0 +1,22 @@
+---
+
+layout: single
+title: "Professional Engagements"
+permalink: /workshops/
+
+---
+
+{% for group in site.data.event %}
+  <div class="role-block">
+    <h3>{{ group.role }}</h3>
+    <ul>
+      {% for item in group.events %}
+        <li>
+          <strong>{{ item.year }} - {{ item.event_type }}</strong><br>
+          <em>{{ item.title }}</em><br>
+          <span class="remark">{{ item.remark }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
