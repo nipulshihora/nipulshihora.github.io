@@ -1,20 +1,25 @@
 ---
-layout: single
-title: "Professional Engagements"
+layout: default
+title: Professional Events & Training
 permalink: /workshops/
 ---
 
-{% for group in site.data.event %}
-  <div class="role-block">
-    <h3>{{ group.role }}</h3>
-    <ul>
-      {% for item in group.events %}
-        <li>
-          <strong>{{ item.year }} - {{ item.event_type }}</strong><br>
-          <em>{{ item.title }}</em><br>
-          <span class="remark">{{ item.remark }}</span>
+<h1>Professional Events & Training</h1>
+
+{% assign all_events = site.data.event %}
+
+{% for group in all_events %}
+  <section class="role-block">
+    <h2>{{ group.role }}</h2>
+    <ul class="event-list">
+      {% for event in group.events %}
+        <li class="event-item">
+          <span class="event-year">{{ event.year }}</span>
+          <span class="event-type">{{ event.event_type }}</span> -
+          <span class="event-title" title="{{ event.title }}">{{ event.title }}</span>
+          <span class="event-remark" title="{{ event.remark }}">{{ event.remark }}</span>
         </li>
       {% endfor %}
     </ul>
-  </div>
+  </section>
 {% endfor %}
