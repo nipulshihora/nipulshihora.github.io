@@ -2,105 +2,76 @@
 layout: page
 title: Events
 permalink: /events/
-pagination:
-  enabled: true
-  collection: events
-  per_page: 5
-  sort_field: "year"
-  sort_reverse: true
 ---
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<h1 style="text-align:center;">Events</h1>
 
-<div class="container mt-5">
-  <h1 class="text-center mb-4">Events</h1>
-
-  <!-- Filters -->
-  <div class="row mb-3">
-    <div class="col-md-4">
-      <label for="yearFilter" class="form-label">Year</label>
-      <select id="yearFilter" class="form-select">
-        <option value="all">All</option>
-        {% assign years = site.data.events | map: "year" | uniq | sort | reverse %}
-        {% for year in years %}
+<div style="text-align:center; margin-bottom: 1em;">
+  <label>Filter by Year:
+    <select id="yearFilter">
+      <option value="all">All</option>
+      {% assign years = site.data.events | map: "year" | uniq | sort | reverse %}
+      {% for year in years %}
         <option value="{{ year }}">{{ year }}</option>
-        {% endfor %}
-      </select>
-    </div>
-    <div class="col-md-4">
-      <label for="roleFilter" class="form-label">Role</label>
-      <select id="roleFilter" class="form-select">
-        <option value="all">All</option>
-        {% assign roles = site.data.events | map: "role" | uniq | sort %}
-        {% for role in roles %}
-        <option value="{{ role }}">{{ role }}</option>
-        {% endfor %}
-      </select>
-    </div>
-    <div class="col-md-4">
-      <label for="searchInput" class="form-label">Search</label>
-      <input type="text" id="searchInput" class="form-control" placeholder="Search events...">
-    </div>
-  </div>
-
-  <!-- Event List -->
-  <div id="eventList" class="list-group">
-    {% for event in paginator.posts %}
-    <div class="list-group-item event-item" data-year="{{ event.year }}" data-role="{{ event.role }}" data-name="{{ event.event_name | downcase }}" data-remark="{{ event.remark | downcase }}">
-      <h5 class="mb-1">{{ event.year }} | {{ event.event_type }}</h5>
-      <p class="mb-1"><strong>{{ event.event_name }}</strong></p>
-      <p class="mb-1"><strong>Role:</strong> {{ event.role }}</p>
-      <p class="mb-1"><strong>Remark:</strong> {{ event.remark }}</p>
-    </div>
-    {% endfor %}
-  </div>
-
-  <!-- Pagination Links -->
-  <nav class="mt-4">
-    <ul class="pagination justify-content-center">
-      {% if paginator.previous_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-        </li>
-      {% endif %}
-
-      {% for page in (1..paginator.total_pages) %}
-        <li class="page-item {% if page == paginator.page %}active{% endif %}">
-          <a class="page-link" href="{{ paginator.base_path }}{{ paginator.paginate_path | replace: ':num', page }}">{{ page }}</a>
-        </li>
       {% endfor %}
+    </select>
+  </label>
 
-      {% if paginator.next_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-        </li>
-      {% endif %}
-    </ul>
-  </nav>
+  <label>Filter by Role:
+    <select id="roleFilter">
+      <option value="all">All</option>
+      {% assign roles = site.data.events | map: "role" | uniq | sort %}
+      {% for role in roles %}
+        <option value="{{ role }}">{{ role }}</option>
+      {% endfor %}
+    </select>
+  </label>
 </div>
 
-<!-- JavaScript for Filters -->
+<ul id="eventList" class="event-list">
+  {% for event in site.data.events %}
+  <li class="event-item" data-year="{{ event.year }}" data-role="{{ event.role }}">
+    <strong>{{ event.year }} | {{ event.event_type }}</strong> — 
+    <em>{{ event.event_name }}</em><br>
+    <strong>Role:</strong> {{ event.role }}<br>
+    <strong>Remark:</strong> {{ event.remark }}
+  </li>
+  {% endfor %}
+</ul>
+
+<style>
+  .event-list {
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+    margin: auto;
+  }
+  .event-item {
+    background: #fff;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-left: 5px solid #007ACC;
+  }
+</style>
+
 <script>
   const yearFilter = document.getElementById('yearFilter');
   const roleFilter = document.getElementById('roleFilter');
-  const searchInput = document.getElementById('searchInput');
   const eventItems = document.querySelectorAll('.event-item');
 
   function filterEvents() {
     const year = yearFilter.value;
     const role = roleFilter.value;
-    const keyword = searchInput.value.toLowerCase();
 
     eventItems.forEach(item => {
       const matchYear = (year === 'all' || item.dataset.year === year);
       const matchRole = (role === 'all' || item.dataset.role === role);
-      const matchText = item.dataset.name.includes(keyword) || item.dataset.remark.includes(keyword);
-
-      item.style.display = (matchYear && matchRole && matchText) ? 'block' : 'none';
+      item.style.display = (matchYear && matchRole) ? 'block' : 'none';
     });
   }
 
   yearFilter.addEventListener('change', filterEvents);
   roleFilter.addEventListener('change', filterEvents);
-  searchInput.addEventListener('keyup', filterEvents);
 </script>
