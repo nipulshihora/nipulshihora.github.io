@@ -27,8 +27,10 @@ Replace this:
 <code><%= HandleManager.getCanonicalForm(handle) %></code></strong>--%>
 <div class="well"><fmt:message key="jsp.display-item.identifier"/>
 <code><%= preferredIdentifier %></code></div>
-``
+```
+
 to
+
 
 ```
 <%
