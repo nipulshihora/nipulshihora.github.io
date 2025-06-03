@@ -1,7 +1,7 @@
 ---
 title: 'DSpace JSPUI Enhancement – Citation Identifier Customization'
-date: 2025-05-28
-permalink: /posts/2025/05/blog-post-5/
+date: 2025-06-03
+permalink: /posts/2025/06/blog-post-6/
 
 tags:
   - Dspace
