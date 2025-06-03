@@ -359,3 +359,11 @@ collections:
   events:
     output: true
     permalink: /events/:name/
+
+
+    pagination:
+  enabled: true
+  collection: events
+  per_page: 5
+  sort_field: "year"
+  sort_reverse: true
