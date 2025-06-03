@@ -354,17 +354,16 @@ compress_html:
   ignore:
     envs: development
 
+plugins:
+  - jekyll-paginate-v2
 
 pagination:
   enabled: true
-  collection: events
   per_page: 5
-  sort_field: "year"
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  sort_field: 'date'
   sort_reverse: true
-
-collections:
-  events:
-    output: true
-    permalink: /events/:name/
-
-
+  trail:
+    before: 2
+    after: 2
