@@ -6,14 +6,14 @@ permalink: /events/
 
 <h2>Academic Events</h2>
 
-<div class="filters" style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
-  <label>Role:
+<div class="filters" style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 20px; font-family: Arial, sans-serif;">
+  <label><strong>Role:</strong>
     <select id="roleFilter"><option value="all">All</option></select>
   </label>
-  <label>Year:
+  <label><strong>Year:</strong>
     <select id="yearFilter"><option value="all">All</option></select>
   </label>
-  <label>Event Type:
+  <label><strong>Event Type:</strong>
     <select id="typeFilter"><option value="all">All</option></select>
   </label>
 </div>
@@ -32,22 +32,17 @@ permalink: /events/
       years.add(year);
     });
 
-    const roleFilter = document.getElementById('roleFilter');
     roles.forEach(r => roleFilter.innerHTML += `<option value="${r}">${r}</option>`);
-
-    const yearFilter = document.getElementById('yearFilter');
     [...years].sort((a, b) => b - a).forEach(y => yearFilter.innerHTML += `<option value="${y}">${y}</option>`);
-
-    const typeFilter = document.getElementById('typeFilter');
     types.forEach(t => typeFilter.innerHTML += `<option value="${t}">${t}</option>`);
   }
 
   function displayEvents() {
-    const role = document.getElementById('roleFilter').value;
-    const year = document.getElementById('yearFilter').value;
-    const type = document.getElementById('typeFilter').value;
-    const eventList = document.getElementById('eventList');
-    eventList.innerHTML = '';
+    const role = roleFilter.value;
+    const year = yearFilter.value;
+    const type = typeFilter.value;
+    const list = document.getElementById("eventList");
+    list.innerHTML = '';
 
     const filtered = events.filter(e => {
       const eventYear = e.date.split('-')[0];
@@ -58,14 +53,19 @@ permalink: /events/
 
     filtered.sort((a, b) => b.date.localeCompare(a.date)).forEach(e => {
       const li = document.createElement('li');
-      li.innerHTML = `<strong>${e.date}</strong> — <em>${e.event_name}</em> (${e.event_type}, ${e.role}${e.organizer ? ', ' + e.organizer : ''})`;
-      eventList.appendChild(li);
+      li.innerHTML = `
+        <span class="date">${e.date}</span> — 
+        <span class="type">${e.event_type}</span>: 
+        <span class="name"><strong>${e.event_name}</strong></span> 
+        <span class="meta">(${e.role}${e.organizer ? ', ' + e.organizer : ''})</span>
+      `;
+      list.appendChild(li);
     });
   }
 
   document.addEventListener('DOMContentLoaded', () => {
     populateFilters(events);
-    document.querySelectorAll('select').forEach(s => s.addEventListener('change', displayEvents));
+    document.querySelectorAll('select').forEach(el => el.addEventListener('change', displayEvents));
     displayEvents();
   });
 </script>
@@ -74,17 +74,32 @@ permalink: /events/
   .event-list {
     list-style: none;
     padding: 0;
+    font-family: 'Segoe UI', sans-serif;
   }
   .event-list li {
-    background: #f0f0f0;
-    border-radius: 6px;
-    padding: 8px 12px;
+    padding: 10px 15px;
     margin-bottom: 8px;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background: #f9f9f9;
+    border-left: 4px solid #007acc;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    font-size: 15px;
   }
-  select {
-    padding: 4px 8px;
-    font-size: 14px;
+  .event-list li .date {
+    color: #333;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  .event-list li .type {
+    color: #006699;
+    font-style: italic;
+  }
+  .event-list li .name {
+    color: #111;
+  }
+  .event-list li .meta {
+    color: #555;
+    margin-left: 6px;
+    font-style: normal;
   }
 </style>
