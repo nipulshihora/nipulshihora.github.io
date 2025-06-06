@@ -25,31 +25,24 @@
       <select id="typeFilter"><option value="all">All</option></select>
     </label>
   </div>
-
   <div id="eventsContainer"></div>
-
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
   <script>
     async function loadYAMLAndDisplay() {
       const response = await fetch('events.yml');
       const yamlText = await response.text();
       const data = jsyaml.load(yamlText);
-
       const events = data.sort((a, b) => (b.date > a.date ? 1 : -1));
-
       const roleSet = new Set(), yearSet = new Set(), typeSet = new Set();
-
       events.forEach(e => {
         roleSet.add(e.role);
         const year = e.date.split('-')[0].trim();
         if (!year.includes("to") && !year.includes("Every")) yearSet.add(year);
         typeSet.add(e.event_type);
       });
-
       roleSet.forEach(r => roleFilter.innerHTML += `<option value="${r}">${r}</option>`);
       [...yearSet].sort((a, b) => b - a).forEach(y => yearFilter.innerHTML += `<option value="${y}">${y}</option>`);
       typeSet.forEach(t => typeFilter.innerHTML += `<option value="${t}">${t}</option>`);
-
       function displayEvents() {
         const role = roleFilter.value;
         const year = yearFilter.value;
@@ -69,11 +62,9 @@
           `;
         });
       }
-
       document.querySelectorAll('select').forEach(s => s.addEventListener('change', displayEvents));
       displayEvents();
     }
-
     loadYAMLAndDisplay();
   </script>
 </body>
