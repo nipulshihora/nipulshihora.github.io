@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }
 header {
-  background: #fff;
+  background: #f8f8f8;
   padding: 10px 20px;
   border-bottom: 2px solid #ddd;
 }
@@ -32,7 +32,7 @@ header {
 }
 .sidebar {
   width: 250px;
-  background: #fff;
+  background: #f0f0f0;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
@@ -72,7 +72,7 @@ header {
 .content {
   flex-grow: 1;
   padding: 20px;
-  background: #fff;
+  background: #fafafa;
 }
 iframe {
   width: 100%;
@@ -83,11 +83,11 @@ iframe {
 footer {
   text-align: center;
   padding: 10px;
-  background: #fff;
+  background: #f0f0f0;
   border-top: 2px solid #ddd;
 }
 header {
-  background: #fff;
+  background: #f8f8f8;
   padding: 10px 20px;
   border-bottom: 2px solid #ddd;
 }
@@ -112,7 +112,7 @@ header {
 .content iframe {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #222;
   line-height: 1.6;
 }
 
