@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Events
-permalink: /events.html
+permalink: /events/
 ---
 
 # Academic Events
