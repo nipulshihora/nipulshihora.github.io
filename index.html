@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nipul Shihora</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <div class="page-wrap">
+<header>
+  <div class="header-left">
+    <img src="images/logo.png" alt="IIT Indore" class="iiti-logo"/>
+    <div class="inst-name">Indian Institute of Technology Indore</div>
+  </div>
+</header>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="profile-box">
+          <img src="images/nipulgs.png" alt="Nipul Shihora" class="profile-img"/>
+          <h2>Nipul Shihora</h2>
+          <p>Library Information Assistant, <br> Indian Institute of Technology Indore</p>
+        </div>
+        <nav>
+          <ul>
+            <li onclick="loadPage('pages/profile.html')">Profile</li>
+            <li onclick="loadPage('pages/experience.html')">Experience</li>
+            <li onclick="loadPage('pages/qualification.html')">Qualification</li>
+            <li onclick="loadPage('pages/publications.html')">Publications</li>
+            <li onclick="loadPage('pages/workshop.html')">Workshops & Training</li>
+            <li onclick="loadPage('pages/contact.html')">Contact</li>
+            <li onclick="loadPage('all-sections.html')">CV</li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="content">
+        <iframe id="iframeContent" src="pages/profile.html"></iframe>
+      </main>
+
+    </div>
+    <footer>
+      &copy; 2025 Nipul Shihora | Library Information Assistant, IIT Indore
+    </footer>
+  </div>
+</body>
+</html>
