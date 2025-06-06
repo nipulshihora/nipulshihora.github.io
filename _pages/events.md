@@ -2,6 +2,7 @@
 layout: default
 title: ""
 permalink: /events/
+author_profile: true
 ---
 
 
