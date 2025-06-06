@@ -1,14 +1,7 @@
 # professional Events
-- event_type: Session
-  event_name: Weekly Academic & Office Practice Sessions
-  date: 2025
-  role: Participant
-  organizer: IIT Indore
-  description: Internal sessions aimed at enhancing administrative practices, file management, communication skills, and institutional workflows.
-
-- event_type: Webinar
-  event_name: Online Awareness Session – How to Publish with Oxford Journals
-  date: 2025
-  role: Participant
-  organizer: IIT Indore
-  description: Gained insights into academic publishing, editorial workflows, and manuscript preparation for reputed international journals.
+- date: 2025-05-12
+  event_type: Webinar
+  event_name: Turnitin Webinar
+  role: As a participant
+  organizer: Turnitin
+  description: Focused on plagiarism.
