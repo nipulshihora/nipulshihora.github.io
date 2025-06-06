@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }
 header {
-  background: #f8f8f8;
+  background: #fff;
   padding: 10px 20px;
   border-bottom: 2px solid #ddd;
 }
@@ -32,7 +32,7 @@ header {
 }
 .sidebar {
   width: 250px;
-  background: #fffff;
+  background: #fff;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
