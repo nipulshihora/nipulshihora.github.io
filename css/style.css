@@ -171,6 +171,8 @@ header {
 }
 
 
+
+
 @media print {
   body {
     background: white !important;
@@ -202,4 +204,13 @@ header {
     page-break-after: avoid;
   }
 }
+
+
+@page {
+  margin: 20mm;
+  @bottom-right {
+    content: counter(page);
+  }
+}
+
 
