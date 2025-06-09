@@ -50,3 +50,12 @@
     color: #000;
   }
 }
+
+.logo-img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+    float: left;
+  margin-right: 10px;
+}
