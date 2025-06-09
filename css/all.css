@@ -1,3 +1,21 @@
+header {
+/*   background: #f8f8f8; */
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.inst-name {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.iiti-logo {
+  height: 50px;
+}
+
 
 /* Section divider: thin light gray line with spacing */
 .section-divider {
