@@ -169,3 +169,37 @@ header {
     align-items: center;
   }
 }
+
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  #printAllBtn {
+    display: none;
+  }
+
+  .page-wrap {
+    page-break-after: always;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-divider {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1rem;
+  }
+
+  header, footer {
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+}
+
