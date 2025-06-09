@@ -6,6 +6,119 @@
     margin: 20px;
     line-height: 1.6;
   }
-</style>
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .experience {
+      margin-bottom: 2rem;
+      padding: 1rem 1.5rem;
+      background: #fff;
+      border-left: 4px solid #2c3e50;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .experience-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .position {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #2c3e50;
+      flex: 1;
+    }
+    .duration {
+      font-size: 0.95rem;
+      color: #777;
+      white-space: nowrap;
+    }
+    .institution {
+      font-weight: normal;
+      color: #555;
+      margin-top: 0.2rem;
+    }
+    .description {
+      margin-top: 0.6rem;
+    }
+  </style>
 
-<h1>Experience</h1><ul><li>Library IT Systems at IIT Indore</li><li>DSpace and IRINS Management</li></ul>
+<body>
+
+  <h1>Experience</h1>
+
+  <div class="experience">
+    <div class="experience-header">
+      <div class="position">Library Information Assistant</div>
+      <div class="duration" data-start="2021-06" data-end="present"></div>
+    </div>
+    <div class="institution">Indian Institute of Technology (IIT) Indore</div>
+    <div class="description">
+      Computer Applications in the LRC, Maintain RFID System, Maintain IDR & ShodhGanga, Faculty Profile Management, e-Resources Access management and Usage Analysis, and Document Delivery Services.
+    </div>
+  </div>
+
+  <div class="experience">
+    <div class="experience-header">
+      <div class="position">Project Officer (eSS), Beside Project Associate (eSS)</div>
+      <div class="duration" data-start="2016-09" data-end="2021-05"></div>
+    </div>
+    <div class="institution">INFLIBNET Centre Gandhinagar</div>
+    <div class="description">
+      e-Resources Management, Support and troubleshooting, Maintain eRM System & University Directory etc.<br />
+      Involved in various training programs and workshops arranged by the centre such as SOUL training, eRM - CORAL Workshop, KOHA Training etc.
+    </div>
+  </div>
+
+  <div class="experience">
+    <div class="experience-header">
+      <div class="position">Library Professional Trainee</div>
+      <div class="duration" data-start="2014-12" data-end="2016-08"></div>
+    </div>
+    <div class="institution">Indian Institute of Technology (IIT) Bhubaneswar</div>
+    <div class="description">
+      Performed various library activities such as Acquisition of Books, Technical Processing (DDC, MARC-21), RFID-based Circulation System, Database Searching, e-Resources Usage Analysis, Reference Services, Reader Services, IT Applications, Content Management of Library Portal etc.<br />
+      Also exposed to the use of LIBSYS and KOHA Library Automation Software.
+    </div>
+  </div>
+
+  <div class="experience">
+    <div class="experience-header">
+      <div class="position">Library Trainee</div>
+      <div class="duration" data-start="2013-07" data-end="2014-07"></div>
+    </div>
+    <div class="institution">Indian Institute of Technology (IIT) Gandhinagar</div>
+    <div class="description">
+      Acquisition, Collection Development, Classification and Cataloguing, Circulation with Reference Services, Journals Management, Document Delivery Service, Inter Library Loan, Reader Assistance Service, Stock Verification, Stack Area Maintenance & other related work etc.<br />
+      Explored SOUL Software.
+    </div>
+  </div>
+
+  <script>
+    function calculateDuration(start, end) {
+      const startDate = new Date(start + "-01");
+      const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-01");
+      let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
+      months += endDate.getMonth() - startDate.getMonth();
+      const years = Math.floor(months / 12);
+      const remainingMonths = months % 12;
+      let durationText = "";
+      if (years > 0) durationText += `${years} Year${years > 1 ? 's' : ''}`;
+      if (remainingMonths > 0) durationText += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
+      return durationText.trim();
+    }
+
+    document.querySelectorAll(".duration").forEach(el => {
+      const start = el.getAttribute("data-start");
+      const end = el.getAttribute("data-end");
+      const durationStr = calculateDuration(start, end);
+      el.textContent = `${new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' })} – ${end === 'present' ? 'Present' : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' })} (${durationStr})`;
+    });
+  </script>
+
+</body>
+</html>
