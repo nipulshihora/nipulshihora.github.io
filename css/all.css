@@ -1,7 +1,7 @@
 header {
 /*   background: #f8f8f8; */
   padding: 10px 20px;
-  border-bottom: 2px solid #ddd;
+/*   border-bottom: 2px solid #ddd; */
 }
 .header-left {
   display: flex;
