@@ -1,11 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Publication Citation</title>
 <style>
   body {
+    background: #f5f7fa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color: #222;
-    margin: 20px;
-    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  .citation-container {
+    background: #fff;
+    max-width: 700px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  .citation-container em {
+    font-style: italic;
+    color: #0056b3;
+  }
+  .citation-container a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .citation-container a:hover,
+  .citation-container a:focus {
+    color: #0056b3;
+    text-decoration: underline;
   }
 </style>
-
-<h1>Publications</h1><p>List of published papers and contributions...</p>
+</head>
+<body>
+  <div class="citation-container" role="contentinfo" aria-label="APA Citation">
+    Dubey, A. K., Kumar, A., & Sharma, A. (2019). <em>The impact of academic libraries in enhancing institutional NIRF ranking: A study</em>. Conference Paper. Retrieved from 
+    <a href="https://www.researchgate.net/publication/331159154_THE_IMPACT_OF_ACADEMIC_LIBRARIES_IN_ENHANCING_INSTITUTIONAL_NIRF_RANKING_A_STUDY" target="_blank" rel="noopener noreferrer" aria-label="Link to the publication on ResearchGate">https://www.researchgate.net/publication/331159154_THE_IMPACT_OF_ACADEMIC_LIBRARIES_IN_ENHANCING_INSTITUTIONAL_NIRF_RANKING_A_STUDY</a>
+  </div>
+</body>
+</html>
