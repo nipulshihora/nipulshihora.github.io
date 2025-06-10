@@ -1,74 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Contact - Nipul G. Shihora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 20px;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f2f2;
       color: #333;
     }
-    .contact-container {
-      max-width: 700px;
-      margin: auto;
+
+    .contact-wrapper {
+      max-width: 800px;
+      margin: 40px auto;
       background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
+
     h1 {
-      text-align: center;
+      text-align: left;
+      color: #222;
       margin-bottom: 10px;
     }
-    .title {
+
+    h2 {
       text-align: center;
+      font-weight: 400;
       font-size: 1.1em;
       margin-bottom: 30px;
       color: #555;
     }
+
     .info {
       line-height: 1.8;
+      font-size: 1rem;
+      margin-bottom: 30px;
     }
-    .label {
-      font-weight: bold;
+
+    .info i {
+      color: #0073e6;
+      margin-right: 10px;
     }
-    .links a {
+
+    .social-links {
+      text-align: center;
+    }
+
+    .social-links a {
       display: inline-block;
-      margin: 10px 10px 0 0;
-      text-decoration: none;
-      color: #0073b1;
-      font-weight: bold;
+      margin: 10px 15px;
+      font-size: 1.4em;
+      color: #444;
+      transition: color 0.3s;
     }
-    .links a:hover {
-      text-decoration: underline;
+
+    .social-links a:hover {
+      color: #0073e6;
+    }
+
+    @media (max-width: 600px) {
+      .contact-wrapper {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .info {
+        font-size: 0.95rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="contact-container">
+  <div class="contact-wrapper">
     <h1>Contact</h1>
-    <p class="title">Nipul G. Shihora (he/his)<br />
-    Library Information Assistant<br />
-    Learning Resource Center<br />
-    Indian Institute of Technology Indore<br />
-    Khandwa Road, Simrol, Indore - 453552, INDIA</p>
+    <h2>Nipul G. Shihora (he/his)<br>Library Information Assistant</h2>
 
     <div class="info">
-      <p><span class="label">Email:</span> <a href="mailto:nipul@iiti.ac.in">nipul@iiti.ac.in</a></p>
-      <p><span class="label">Phone:</span> +91-731-660-3566</p>
+      <p><i class="fas fa-university"></i> Learning Resource Center, Indian Institute of Technology Indore</p>
+      <p><i class="fas fa-map-marker-alt"></i> Khandwa Road, Simrol, Indore - 453552, INDIA</p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:nipul@iiti.ac.in">nipul@iiti.ac.in</a></p>
+      <p><i class="fas fa-phone"></i> +91-731-660-3566</p>
     </div>
 
-    <div class="links">
-      <p><span class="label">Professional Profiles:</span></p>
-      <a href="https://www.researchgate.net/profile/Nipul_Shihora" target="_blank">ResearchGate</a>
-      <a href="https://www.linkedin.com/in/nipulshihora/" target="_blank">LinkedIn</a>
-      <a href="https://orcid.org/0000-0002-XXXX-XXXX" target="_blank">ORCID</a>
-      <a href="https://scholar.google.com/citations?user=XXXXXXX" target="_blank">Google Scholar</a>
-    </div>
-  </div>
-</body>
-</html>
+    <div class="social-links">
+      <a href="https://www.researchgate.net/profile/Nipul_Shihora" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+      <a h
