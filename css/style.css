@@ -32,7 +32,7 @@ header {
 }
 .sidebar {
   width: 250px;
-  background: #f0f0f0;
+  background: #fff;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
@@ -72,7 +72,7 @@ header {
 .content {
   flex-grow: 1;
   padding: 20px;
-  background: #fafafa;
+  background: #fff;
 }
 iframe {
   width: 100%;
@@ -83,18 +83,8 @@ iframe {
 footer {
   text-align: center;
   padding: 10px;
-  background: #f0f0f0;
+  background: #fff;
   border-top: 2px solid #ddd;
-}
-header {
-  background: #f8f8f8;
-  padding: 10px 20px;
-  border-bottom: 2px solid #ddd;
-}
-
-.header-left {
-  display: flex;
-  align-items: center;
 }
 
 .iiti-logo {
@@ -169,48 +159,3 @@ header {
     align-items: center;
   }
 }
-
-
-
-
-@media print {
-  body {
-    background: white !important;
-    color: black !important;
-  }
-
-  #printAllBtn {
-    display: none;
-  }
-
-  .page-wrap {
-    page-break-after: always;
-  }
-
-  .section-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .section-divider {
-    border-bottom: 2px solid #ccc;
-    margin-bottom: 1rem;
-  }
-
-  header, footer {
-    page-break-before: avoid;
-    page-break-after: avoid;
-  }
-}
-
-
-@page {
-  margin: 20mm;
-  @bottom-right {
-    content: counter(page);
-  }
-}
-
-
