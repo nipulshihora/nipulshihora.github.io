@@ -1,9 +1,9 @@
-body {
+ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fff;
-  color: #000;
-}
+  color: #2c3e50;
+} 
 .page-wrap {
   display: flex;
   flex-direction: column;
